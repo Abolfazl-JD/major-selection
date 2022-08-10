@@ -6,7 +6,7 @@ import DeleteModal from './DeleteModal.vue'
 import type { MajorLocation } from '../../types'
 // composables
 import dragDrop from '../composables/dragDrop'
-import modal from '@/composables/Modal'
+import modal from '../composables/modal'
 // store
 import { majorsData } from '../stores/data'
 const storeData = majorsData()
